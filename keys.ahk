@@ -53,7 +53,7 @@ return
 
 ;; Win+Shift+;: Input current date+time in ISO format
 #+;::
-FormatTime, Out, , yyyy-MM-ddTHH:mm:ss
+FormatTime, Out, , yyyy-MM-dd_HH-mm-ss
 Send %out%
 return
 
@@ -71,7 +71,7 @@ return
 
 ;; Input current date+time in filename friendly ISO8601 format
 #^+;::
-FormatTime, Out,, yyyyMMddTHHmmss
+FormatTime, Out,, yyyyMMdd_HHmmss
 Send %out%
 return
 
